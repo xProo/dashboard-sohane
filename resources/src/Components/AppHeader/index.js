@@ -8,7 +8,7 @@ function AppHeader() {
         width={75}
         src="https://vmed.fr/_nuxt/poster-video-vmed.0b0d10b5.png"
       ></Image>
-      <Typography.Title>Vmed's Dashboard</Typography.Title>
+      <Typography.Title>Sohane's Dashboard</Typography.Title>
       <div>
       </div>
     </div>
