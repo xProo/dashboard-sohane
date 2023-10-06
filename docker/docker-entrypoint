@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# We start the node server
+npm start

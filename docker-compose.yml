@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+    app:
+        build:
+            context: ./
+            dockerfile: docker/Dockerfile
+        image: dashboard:local-dev
+        entrypoint: [ "docker-entrypoint" ]
+        volumes:
+            - ./resources:/app:rw
+        ports:
+            - 80:3000
